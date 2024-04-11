@@ -1,0 +1,51 @@
+html {
+    font-size: 10px;
+}
+.card {
+    height: 24em;
+    width: 35em;
+    background-color: red;
+    border: 5px solid black;
+    border-radius: 20px;
+    font-size: 11px;
+}
+
+.card article {
+    height: 12em;
+    background-color: darkred;
+    color: white;
+    padding: 1em;
+}
+
+.card img {
+    max-height: 100%;
+    height: 100%;
+    float: right;
+}
+
+.card h2 {
+    font-size: 2em;
+}
+
+.card h2 p{
+    margin: 0px;
+}
+
+
+.card header {
+    display: flex;
+    align-items: center;
+    max-height: 3em;
+    height: 3em;
+    padding: 1em 1em;
+    border-radius: 15px 15px 0px 0px;
+    background: linear-gradient(#d94c4c, red);
+}
+
+.card footer {
+    height: 3em;
+    padding: 1em;
+    border-radius: 0px 0px 15px 15px;
+    background: linear-gradient(red, #d94c4c);
+    text-align: center;
+}
